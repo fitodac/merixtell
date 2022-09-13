@@ -1,0 +1,279 @@
+
+body.single{
+
+
+// POSTER
+.poster{
+	width: 50%;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	position: relative;
+
+	img{
+		width: 100%;
+	}//img
+
+
+	img.attachment-post-thumbnail{
+		width: 100%;
+		height: auto;
+	}//attachment-post-thumbnail
+
+
+}//poster
+
+
+
+
+// HEADER
+.post-header{
+	text-align: center;
+	padding-bottom: 30px;
+
+
+	h1{
+		border-bottom: solid 2px #eee;
+		line-height: 1.2;
+		font-weight: 600;
+		padding-bottom: 10px;
+		margin: 0 0 20px;
+	}//h1
+
+
+	.subtitle{
+		font-size: 1rem;
+		font-weight: 500;
+		line-height: 1.2;
+		text-align: left;
+		width: calc(100% - 150px);
+		display: block;
+		float: left;
+	}//subtitle
+
+
+	&::after{
+		content: '';
+		display: block;
+		clear: both;
+	}
+
+}//post-header
+
+
+
+
+
+.poster + .post-header{
+	width: calc(50% - 30px);
+	float: right;
+}//poster + post-header
+
+
+
+
+
+// ENTRADES
+.entrades{
+	text-align: center;
+	float: right;
+}//entrades
+
+
+
+.h3{
+	text-align: center;
+	margin-bottom: 22px;
+}//h3
+
+
+
+// POST CONTENT
+.post-content{
+	padding-bottom: 50px;
+}//post-content
+
+
+
+// CREW
+.crew{
+	padding-bottom: 40px;
+}//crew
+
+
+
+// DOSSIER
+.dossier-download{
+	padding-bottom: 40px;
+
+	a{
+		width: 130px;
+		margin: 0 auto;
+		display: block;
+
+		img{
+			width: 100%;
+		}//img
+	}//a
+}//dossier-download
+
+
+
+// LIST
+.zebra-list{
+	margin-bottom: 40px;
+}//zebra-list
+
+
+
+}//single
+
+
+
+
+
+
+
+
+// VIDEO
+.post-video{
+	// max-width: 560px;
+	padding-bottom: 50px;
+	margin: 0 auto;
+
+
+	iframe{
+		width: 100%;
+	}
+}//post-video
+
+
+
+
+
+
+
+
+
+
+body.single-agnda,
+body.single{
+
+	.poster .addthis_inline_share_toolbox_dqla{
+		top: 0;
+		bottom: auto;
+	}
+
+	.at-resp-share-element .at-share-btn{
+		background-image: url('../../../../uploads/2017/06/fb-corner-top.svg') !important;
+	}//at-share-btn
+
+
+
+	.poster > .date{
+		width: 90px;
+		height: 90px;
+		padding: 15px 0;
+		left: -10px;
+		top: -15px;
+		position: absolute;
+		z-index: 10;
+
+		.day{
+			font-size: 2.7rem;
+			line-height: .8;
+			padding-bottom: 4px;
+		}
+
+		.month{
+			font-size: 1.1rem;
+		}//month
+	}//poster + date
+
+
+
+}//agnda-template-default
+
+
+
+
+
+body.post-template-default{
+
+	.post-header{
+
+		h1{
+			text-align: left;
+		}
+
+		.subtitle{
+			font-size: 1.3rem;
+			width: auto;
+			float: none;
+		}
+	}//post-header
+
+}//body.post-template-default
+
+
+
+
+
+body.espectacles-template-default,
+body.sessions-template-default{
+
+	.poster{
+		width: 100%;
+		float: none;
+	}//poster
+
+}//espectacles-template-default
+
+
+
+
+
+.poster-gallery{
+	margin: 0 -5px;
+
+
+	[class^="col-"]{
+		padding-left: 5px;
+		padding-right: 5px;
+	}//col-
+
+
+	img{
+		width: 100%;
+		margin-bottom: 10px;
+	}//img
+
+}//poster-gallery
+
+
+
+
+
+
+
+body.single.single-espectacles{
+
+	.post-header{
+		.subtitle{
+			width: 100%;
+			text-align: center;
+		}//subtitle
+	}//post-header
+
+}//single-espectacles
+
+
+
+
+
+
+
+
+
+
+

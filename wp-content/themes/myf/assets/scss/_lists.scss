@@ -1,0 +1,125 @@
+.zebra-list{
+	margin: 0;
+	display: flex;
+	flex-flow: row wrap;
+
+
+
+	&::after{
+		content: '';
+		clear: both;
+		display: block;
+	}//::after
+	
+
+
+	.date + .info{
+		padding-left: 84px;
+		padding-top: 7px;
+	}//date + info
+
+
+
+	.info{
+
+		.title{
+			line-height: 1.2;
+			display: block;
+		}//title
+
+
+		.location,
+		.time,
+		.city{
+			font-size: .8rem;
+			line-height: 1;
+		}//location
+
+
+		.date-num{
+			font-size: .7rem;
+			line-height: 1;
+			padding-bottom: 2px;
+			display: block;
+		}//date-num
+
+
+		.excerpt{
+			font-size: .75rem;
+			line-height: 1.2;
+			display: block;
+		}//excerpt
+
+	}//info
+
+
+
+	.list-group-item{
+		background: #fff;
+		color: #333;
+		width: 50%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		border: none;
+		// float: left;
+	}//list-group-item
+
+
+	// .list-group-item:nth-child(even){
+
+	// }
+
+
+	// .list-group-item:nth-child(3n+1), 
+	// .list-group-item:nth-child(4n+1){
+	.list-group-item:nth-child(2n), 
+	.list-group-item:nth-child(2n+1){
+		background: #eee;
+	}
+
+	.list-group-item:first-child,
+	.list-group-item:nth-child(4n),
+	.list-group-item:nth-child(4n+1){
+		background: #fff;
+	}
+
+
+
+
+}//zebra-list
+
+
+
+
+.poster > .date,
+.zebra-list .date{
+	background: $brand-primary;
+	color: #fff;
+	text-align: center;
+	width: 60px;
+	height: 60px;
+	padding: 10px 0;
+	float: left;
+	border-radius: 300px;
+	line-height: 1;
+
+
+	.day{
+		font-size: 1.9rem;
+		line-height: 1;
+		letter-spacing: -1px;
+		display: block;
+	}//day
+
+	.month{
+		font-size: .8rem;
+		padding-bottom: 3px;
+		display: block;
+	}//month
+
+}//date
+
+
+
+
+

@@ -1,0 +1,66 @@
+
+.main-footer{
+	background: $brand-primary;
+	color: #fff;
+	text-align: center;
+	font-style: italic;
+	padding: 30px 0;
+
+
+	.h2{
+		margin-bottom: 5px;
+	}//h2
+
+
+	a{
+		color: #fff;
+	}//a
+
+
+	.social{
+		padding-top: 10px;
+	}//social
+
+}//main-footer
+
+
+
+
+
+
+/*----------------------------------------------------*/
+/*	MANAGER INFO
+/*----------------------------------------------------*/
+.manager-info{
+	padding-bottom: 60px;
+
+
+	.logo{
+		width: 100%;
+		margin-bottom: 20px;
+	}//logo
+
+
+	a{
+		color: #333;
+	}
+
+	.wrapper-email{
+		text-align: right;
+	}
+
+	.wrapper-info{
+		text-align: left;
+	}
+
+}//manager-info
+
+
+
+
+
+
+
+
+
+

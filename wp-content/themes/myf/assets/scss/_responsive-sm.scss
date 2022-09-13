@@ -1,0 +1,42 @@
+/*-----------------------------------------------*/
+/*	RESPONSIVE
+/*	Bootstrap media queries
+/*-----------------------------------------------*/
+@media screen and (max-width: 991px) {
+
+
+	.banner-1 .banner-text,
+	.banner-2 .banner-text{
+		padding: 90px 0;
+	}
+
+
+	body.page-template-actriu{
+
+		.page-content{
+			margin-borrom: 240px;
+		}//page-content
+
+	}//page-template-actriu
+
+
+
+
+	.img-diagonal{
+		height: 450px;
+		top: -150px;
+		clip-path: polygon(0% 20%, 0% 100%, 100% 80%, 100% 0%);
+	}//img-diagonal
+
+
+}//max-width: 991px
+
+
+
+
+
+
+
+
+
+

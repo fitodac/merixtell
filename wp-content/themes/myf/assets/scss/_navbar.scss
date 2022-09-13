@@ -1,0 +1,201 @@
+
+
+.main-header{
+	padding: 15px;
+	position: relative;
+	z-index: 50;
+}//main-header
+
+
+
+.site-branding{
+	font-weight: 500;
+	font-style: italic;
+	text-align: center;
+	line-height: 1;
+	padding: 10px 0 30px;
+	display: block;
+
+
+	.site-title{
+		width: 140px;
+		margin: 0 auto;
+
+
+		span{
+			font-size: 2.2rem;
+			line-height: .9;
+			display: block;
+		}
+
+		small{
+			font-size: 1.1rem;
+			display: block;
+		}
+
+		a{
+			color: #333;
+
+			&:hover, &:active, &:focus{
+				text-decoration: none;
+			} 
+		}//a
+
+	}//site-title
+
+}//site-branding
+
+
+
+
+
+
+
+nav.navbar{
+
+	header{
+		padding: 30px 0;
+
+		.site-branding .site-title a{
+			color: #fff;
+		}//a
+
+
+		.menu-toggle{
+			color: #fff;
+			top: 10px;
+			right: 10px;
+			left: auto;
+		}//menu-toggle
+
+	}//header
+
+
+	header,
+	footer{
+		display: none;
+	}//footer / header
+
+
+	footer{
+		text-align: center;
+		padding: 20px;
+
+		a{ color: #fff; }
+
+		.social{
+			padding-top: 10px;
+		}//social
+	}//footer
+
+
+
+	.main-navbar{
+		transition: .4s;
+	}//main-navbar
+
+
+
+
+	ul{
+		padding: 0;
+
+
+		li{
+			text-align: center;
+			font-size: 1.1rem;
+			font-weight: 500;
+			list-style: none;
+			display: inline-block;
+			vertical-align: middle;
+
+
+			a{
+				color: #333;
+				padding: 8px 15px;
+
+				&:hover, &:active, &:focus{
+					text-decoration: none;
+				}//:hover
+
+			}//a
+
+
+			&.current-menu-item a{
+				color: $brand-primary;
+			}
+
+		}//li
+
+
+
+		.MYproduccions a{
+			font-size: .6rem;
+			line-height: 1.8;
+			text-transform: uppercase; 
+			font-weight: 600;
+			margin-top: 6px;
+			display: block;
+
+
+			&::before{
+				content: 'Meri Yanes';
+				font-size: 1.1rem;
+				font-weight: 300;
+				line-height: .5;
+				text-transform: initial;
+				display: block;
+			}//::before
+		}//MYproduccions
+
+	}//ul
+
+
+
+
+
+
+	.menu-toggle{
+		background-color: transparent;
+		border: none;
+		color: $brand-primary;
+		font-size: 20px;
+		line-height: 20px;
+		width: 36px;
+		height: 36px;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+		display: none;
+		left: 0;
+		top: -50px;
+		position: absolute;
+		transition: .3s;
+
+		.fa{
+
+		}//fa
+
+		&.fixed{
+			background: $brand-primary;
+			color: #fff;
+			left: 10px;
+			top: 10px;
+			position: fixed;
+			border-radius: 300px;
+		}
+
+	}//menu-toggle
+
+}//navbar
+
+
+
+
+
+
+
+
+
+
+
